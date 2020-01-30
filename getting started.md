@@ -115,8 +115,3 @@ It’s often useful to be able to view the changes represented by a potential co
 | git diff | How diffs between commits, branches, etc. |$ git diff |
 | git commit --amend | Amend the last commit |$ git commit --amend |
 | git show `SHA` | Show diff vs. the SHA |$ git show fb738e… |
-
-
-
-
-Notes taken from [Learn Enough Git To Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started) by Michael Hartl.
