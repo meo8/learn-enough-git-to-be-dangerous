@@ -238,26 +238,26 @@ However, in a Git repository we can undo the changes by forcing the system to ch
 
     ```sh
     $ git diff
-     diff --git a/about.html b/about.html
-     index b8b66bd..8b13789 100644
-     --- a/about.html
-     +++ b/about.html
-     @@ -1,14 +1 @@
-     -<!DOCTYPE html>
-     -<html lang="en" dir="ltr">
-     -  <head>
-     -    <meta charset="utf-8">
-     -    <title>About Us</title>
-     -  </head>
-     -  <body>
-     -    <h1>About</h1>
-     -    <p>
-     -      This site is a sample project for the <strong>awesome</strong> Git
-     -      tutorial <em>Learn Enough™ Git to Be Dangerous</em>.
-     -    </p>
-     -  </body>
-     -</html>
-     +
+    diff --git a/about.html b/about.html
+    index b8b66bd..8b13789 100644
+    --- a/about.html
+    +++ b/about.html
+    @@ -1,14 +1 @@
+    -<!DOCTYPE html>
+    -<html lang="en" dir="ltr">
+    -  <head>
+    -    <meta charset="utf-8">
+    -    <title>About Us</title>
+    -  </head>
+    -  <body>
+    -    <h1>About</h1>
+    -    <p>
+    -      This site is a sample project for the <strong>awesome</strong> Git
+    -      tutorial <em>Learn Enough™ Git to Be Dangerous</em>.
+    -    </p>
+    -  </body>
+    -</html>
+    +
     ```
 
 <br>
