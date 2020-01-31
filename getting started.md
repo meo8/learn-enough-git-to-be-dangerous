@@ -49,9 +49,14 @@ In order to use git on a project, the project must first be initialized.
   - `git add -A` to add **all** untracked files.
   - `git add . ` to add all files in **current** directory.
 - Use `git commit -am <message>` to commit the staged files.
+  - Write in the present tense using the [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood).
   - `-a` option arranges to commit all the changes in currently existing files and includes changes only to files already added to the repository.
   - `-m` option is used to include a message indicating the purpose of the commit.
-    - Write in the present tense using the [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood).
+> When using `git commit -a`, the text edior will open. If no commit message was provided and the text editor is closed out, **the commit is canceled**.
+>
+> Use `git commit -a` to add a longer message. Do so by including the typical short message at the top, then hit _return_ a couple of times before writing out the longer message. Once done, save the message and exit.
+
+
 - Use `git log` to see the records of the commit.
   ```sh
   $ git log
